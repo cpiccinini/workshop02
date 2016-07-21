@@ -1,0 +1,182 @@
+@charset "UTF-8";
+/* CSS Document  */
+/* Project name: TP Bootstrap */
+/* File name: styles.css */
+/* Description: Hoja de estilos global */
+/* Creation date: ESCRIBIR-EL-MES de 2016 */
+/* Author: MI-NOMBRE MI-APELLIDO */
+/* Author's eMail: MI-EMAIL@SERVER.com */
+/********** FONTS (Google-fonts) **********/
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,400italic);
+body {
+  font-family: "Roboto Slab";
+  margin: 0; }
+
+figure {
+  margin: 0;
+  line-height: 0; }
+
+a {
+  outline: none !important;
+  color: inherit !important; }
+
+/*************************************/
+/*=========     GLOBAL     =========*/
+/***********************************/
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #D0D3D4;
+  font-family: "Montserrat"; }
+
+.active {
+  color: #54585A; }
+
+.titulointegrantes {
+  font-family: "Montserrat";
+  text-align: center;
+  font-style: bold;
+  color: #333F48; }
+
+.img-thumbnail {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  max-width: 180px;
+  max-height: 180px;
+  border: 1px solid #B2B4B2; }
+
+.col-xs-4 h4 {
+  margin-left: -10%;
+  font-weight: 300;
+  font-size: 14px;
+  color: #707372; }
+
+iframe {
+  max-width: 300px;
+  max-height: 300px;
+  border: 5px solid black; }
+
+#quehacemos {
+  margin-left: 100px;
+  margin-right: 100px; }
+
+/*************************************/
+/*========= PUBLICACIONES ==========*/
+/***********************************/
+#headingOne, #headingTwo, #headingThree {
+  background-color: #B2B4B2;
+  color: white;
+  border: 1px solid grey; }
+
+.list-group-item {
+  transition: 600ms;
+  font-size: 16px; }
+  .list-group-item:hover p {
+    font-style: bold;
+    font-size: 16px;
+    color: #B2B4B2; }
+
+.panel-heading {
+  transition: 600ms; }
+  .panel-heading:active .panel-title p {
+    color: grey; }
+
+/*************************************/
+/*=========     GLOBAL     =========*/
+/***********************************/
+/*************************************/
+/*=========     HEADER     =========*/
+/***********************************/
+/*************************************/
+/*=========     lineas     =========*/
+/***********************************/
+#lineas {
+  padding: 50px 0 50px;
+  font-family: "Roboto Slab"; }
+  #lineas h2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    margin-bottom: 25px; }
+  #lineas .btn-block {
+    margin-top: 20px !important;
+    font-family: "Montserrat";
+    background-color: #B2B4B2;
+    border: 1px solid grey; }
+  #lineas #demo, #lineas #demo1, #lineas #demo3 {
+    margin: 20px 0px;
+    font-size: 14px;
+    font-family: "Montserrat";
+    background-color: white; }
+
+/***************************************/
+/*=========     SERVICES     =========*/
+/*************************************/
+/****************************************/
+/*=========     PORTFOLIO     =========*/
+/**************************************/
+/**************************************/
+/*=========     CONTACT     =========*/
+/************************************/
+#contact {
+  background: url(../images/map.png) no-repeat center center;
+  background-size: cover;
+  padding: 75px 0 50px;
+  font-family: "Montserrat"; }
+  #contact h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    text-transform: uppercase;
+    margin-bottom: 25px; }
+  #contact p {
+    font-weight: 400;
+    font-size: 20px; }
+  #contact textarea {
+    margin-top: 20px; }
+  #contact .form-control {
+    height: 70px; }
+  #contact #texto {
+    height: 280px; }
+  #contact .btn-lg {
+    background-color: grey;
+    border: none;
+    color: #fff !important;
+    font-size: 18px;
+    font-family: "Montserrat";
+    margin-top: 30px; }
+
+/************************************/
+/*=========     FOOTER     =========*/
+/************************************/
+/************************************/
+/*=========     FOOTER     =========*/
+/************************************/
+#footer {
+  height: 500px;
+  max-width: 100%;
+  padding: 50px;
+  font-family: "Montserrat"; }
+  #footer ul, #footer ol {
+    list-style: none;
+    /* elimina la vi├▒eta */
+    text-align: left;
+    margin: 0;
+    padding: 0; }
+  #footer #googleMap {
+    height: 280px;
+    width: 280px;
+    margin: 0 auto 0 auto; }
+
+/******************************************/
+/*=========     MEDIA-QUERIES    =========*/
+/******************************************/
+
+/*# sourceMappingURL=styles.css.map */

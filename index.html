@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css">
+
+    <script>
+    function initialize() {
+      var mapProp = {
+        center:new google.maps.LatLng(-34.597797,-58.3998195,17),
+        zoom:15,
+        mapTypeId:google.maps.MapTypeId.ROADMAP
+      };
+      var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<style>
+
+
+</style>
+  </head>
+  <body>
+
+
+ <!--MENU CARO - INSERTAR ARRIBA -->
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Laboratorio de Neurofarmacología de los Procesos de Memoria</a>
+    </div>
+
+    <!-- -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Qué hacemos? <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">Integrantes</a></li>
+         <li><a href="#">Líneas de Investigación</a></li>         <li><a href="#">Contacto</a></li>
+         <li><a href="#">Donde Estamos</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Publicaciones<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://www.ncbi.nlm.nih.gov/pubmed/27287939"</a>The Faith of Memory</li>
+            <li><a href="http://www.ncbi.nlm.nih.gov/pubmed/27321160">Reconsolidation-induced memory persistence</a></li>
+            <li><a href="http://www.ncbi.nlm.nih.gov/pubmed/24819880">Neuropharmacology of memory consolidation and reconsolidation</a></li>
+            <li><a href="http://www.ncbi.nlm.nih.gov/pubmed/22776591">Choline reverses scopolamine-induced memory impairment</a></li>
+            <li><a href="http://www.ncbi.nlm.nih.gov/pubmed/19274341">Pharmacological effects and behavioral interventions on memory consolidation</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+ <!--CARROUSEL -->
+
+ <div id="carousel-example-generic" class="carousel slide container " data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+​
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/mice-6.jpg" alt="...">
+    </div>
+    <div class="item">
+      <img src="images/red-neuronal.jpg" alt="...">
+    </div>
+  </div>
+​
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+​
+  <div>
+      <div class="col-xs-12 text-center">
+      <h2 class="titulointegrantes">Qué hacemos?<h2>
+      </div>
+
+
+        <div class="col-xs-12 text-center">
+          <p id=quehacemos>   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+      
+        </div>
+
+  </div>  
+
+
+
+<container>
+
+  <div class="col-xs-12 text-center">
+      <h2 class="titulointegrantes">Integrantes<h2>
+      </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-4 text-center">
+        <img class="img-thumbnail" src="" alt="">
+      </div>
+     <div class="col-xs-4 text-center">
+        <img class="img-thumbnail" src="images/blake.jpg" alt="Thumbnail image">
+      </div>
+     <div class="col-xs-4 text-center">
+        <img class="img-thumbnail" src="" alt="">
+      </div>
+    </div>
+
+    <div class="row">
+       <div class="col-xs-4 text-center">
+        <img class="img-thumbnail" src="" alt="">
+      </div>
+       <div class="col-xs-4 text-center">
+        <img class="img-thumbnail" src="" alt="">
+        <h4>Dr. Mariano Rat - Facultad de Farmacia</h4>
+      </div>
+       <div class="col-xs-4 text-center">
+        <img class="img-thumbnail" src="" alt="">
+      </div>
+    </div>
+
+    <div class="row">
+       <div class="col-xs-4 text-center">
+        <img class="img-thumbnail" src="images/Krawczyk.jpg" alt="Thumbnail image">
+      </div>
+      <div class="col-xs-4 text-center">
+        <img class="img-thumbnail" src="" alt="">
+      </div>
+     <div class="col-xs-4 text-center">
+        <img class="img-thumbnail" src="images/Millan.jpg" alt="Thumbnail image">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-xs-4 text-center">
+        <img class="img-thumbnail" src="" alt="">
+        <h4>Dr. Mariano Rat - Facultad de Farmacia</h4>
+       </div>
+      <div class="col-xs-4 text-center">
+        <img class="img-thumbnail" src="" alt="">
+     </div>
+       <div class="col-xs-4 text-center">
+        <img class="img-thumbnail" src="" alt="">
+        <h4>Dr. Mariano Rat - Facultad de Farmacia</h4>
+      </div>
+    </div>
+
+
+    <div class="row">
+       <div class="col-xs-4 text-center">
+        <img class="img-thumbnail" src="" alt="">
+      </div>
+      <div class="col-xs-4 text-center">
+        <img class="img-thumbnail" src="images/Boccia.png" alt="Thumbnail image">
+      </div>
+      <div class="col-xs-4 text-center">
+        <img class="img-thumbnail" src="" alt="">
+      </div>
+    </div>
+
+    <div class="row">
+       <div class="col-xs-4 text-center">
+        <img class="img-thumbnail" src="" alt="">
+      </div>
+       <div class="col-xs-4 text-center">
+        <img class="img-thumbnail" src="" alt="">
+        <h4>Dr. Mariano Rat - Facultad de Farmacia</h4>
+      </div>
+       <div class="col-xs-4 text-center">
+        <img class="img-thumbnail" src="" alt="">
+      </div>
+    </div>
+
+</div>
+</container>
+
+<container>
+
+    <div id="publicaciones">
+  
+  <h2 class="titulointegrantes">Publicaciones<h2>
+
+
+      <div class="container">       
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingOne">
+              <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="True" aria-controls="collapseOne">
+                  2010 - Actualidad
+                </a>
+              </h4>
+            </div>
+            <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+              <div class="panel-body">
+            <div class="list-group">
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-heading">2016 - Krawczyk MC, Navarro N, Blake MG, Romano A, Feld M, Boccia MM. “Reconsolidation-induced memory persistence: participation of late phase hippocampal ERK activation. Neurobiology of Learning and Memory” (en prensa).</p>
+              </a>
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2016 - Fernández RS, Boccia MM, Pedreira ME. The fate of memory: Reconsolidation and the case of prediction error.Neuroscience and Biobehavioral Reviews, en prensa.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2015 - Baratti CM, Boccia MM, Blake MG, Krawczyk MC. El sistema glutamatérgico como una nueva diana para fármacos antidepresivos más eficaces. Rev. Farm., 157, 26-36.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2015 - Salles A, Boccia M, Blake M, Corbi N, Passananti C, Baratti CM, Romano A, Freudenthal R. Hippocampal dynamics of synaptic NF-kappa B during inhibitory avoidance long-term memory consolidation in mice. Neuroscience, 291, 70-80.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2015 - Krawczyk MC, Blake MG, Baratti CM, Romano A, Boccia MM, Feld M. “Memory reconsolidation of an inhibitory avoidance task in mice involves cytosolic ERK2 bidirectional modulation”. J. Neuroscience. 2015 May 21;294:227-37. doi:1016/j.neuroscience. 2015.03.019. Epub 2015 Mar 17. PMID: 25791227.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2014 - Ruetti E, Justel N, Mustaca A, Boccia MM. Corticosterone and propranolol’s role on taste recognition memory. Pharmacology, Biochemistry &amp; Behavior, 127, 37-41.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2014 - Feld M, Krawczyk MC, Fustiñana M, Blake M, Baratti C, Romano A, and Boccia M "Decrease of ERK/MAPK overactivation in prefrontal cortex reverses early memory deficitin a mouse model of Alzheimer's disease”. JAD, 40(1):69-82</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2014 - Blake MG, Krawczyk MC, Baratti CM, Boccia MM “ Neuropharmacology of memory consolidation and reconsolidation: Insights on central cholinergic mechanisms”. Journal of Physiology Paris, S0928-4257(14)00016- 3.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2014 - Justel N, Mustaca A, Boccia MM, Ruetti E. Incentive relativity in middle aged rats. Neuroscience Letters, 559, 122-126, 2014.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2013 - Blake MG, Boccia MM, Krawczyk MC, Baratti CM “Hippocampal α7-nicotinic cholinergic receptors modulate memory reconsolidation: a potential strategy for recovery from amnesia”. Neurobiology of Learning and Memory, 106C:193-203.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2012 - Blake MG, Boccia MM, Krawczyk MC, Baratti CM. “Choline reverses new learning interference by improving memory reconsolidation”. Neurobiology of Learning and Memory, 98(2), 112-21.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2012 - BarattiI CM, Boccia MM, Blake MG, Krawczyk MC. La reserva cerebral y cognitiva. Rev. Farm. 154, 82-92, 2012.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2011 - Blake MG, Boccia MM, Krawczyk MC, Baratti CM “ El papel del farmacéutico en el sistema de salud a través de la historia”. Revista Farmacéutica, 153, 5-14, 2011.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2011 - Boccia MM, Blake MG, Krawczyk MC, Baratti CM “Sildenafil, a selective phosphodiesterase type 5 inhibitor, enhances memory reconsolidation of an inhibitory avoidance task in mice”. Behavior Brain Research, 220, 319-324, 2011.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2011 - Blake MG, Boccia MM, Krawczyk MC, Baratti CM “Scopolamine prevents retrograde memory interference between two different learning tasks”. Physiology Behavior, 102, 332-7, 2011.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2010 - Boccia MM, Blake MG, Krawczyk MC, Baratti CM “Hippocampal alpha7 nicotinic receptors modulate memory reconsolidation of an inhibitory avoidance task in mice”. Neuroscience, 171 (2), 531-43, 2010.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2010 - Blake MG, Boocia MM, Carcaboso A, Chiappetta DA, Hocht C, Krawczyk MC, Sosnik A, Baratti CM. Novel long-term anticonvulsant treatment with gabapentin without causing memory impairment in mice. Epilepsy and Behavior, 17, 157-164.</p>
+              </a>
+              
+            </div>            
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingTwo">
+              <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  2000 - 2009
+                </a>
+              </h4>
+            </div>
+            <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+              <div class="panel-body">
+            <div class="list-group">
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-heading">2009 - Baratti CM, Boccia MM, Blake MG, Krawczyk MC. Neurofarmacología de las drogadicciones. Rev. Farm., 151, 5-20, 2009.</p>
+              </a>
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2009 - BARATTI CM, BOCCIA MM, BLAKE MG. Oxytocin and Vasopressin: Their participation in the neurobiology of learning and memory in Function of neuropeptides at central nervous system, 31-52, 2009.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2009 - BOCCIA MM, BLAKE MG, BARATTI CM, MCGAUGH JL. Involvement of the basolateral amygdala in muscarinic cholinergic modulation of extinction memory consolidation. Neurobiology of Learning and Memory, 91, 93-97, 2009.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2009 - BARATTI CM, BOCCIA MM, BLAKE MG. Memory consolidation and reconsolidation: Pharmacological and behavioral effects. Braz. J. Med. Biol. Res., 42, 148-154, 2009.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2008 - BLAKE MG, BOCCIA MM, BARATTI CM Behavioral differences on memory retrieval between two variants of step-through inhibitory avoidance task in mice. Neuroscience Letters, 44, 102-105, 2008.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2008 - CARCABOSO AM, CHIAPETTA DA, HOCHT C, BLAKE MG, BOCCIA MM, BARATTI CM, SOSNIK A. In vitro/in vivo characterization of melt-molded gabapentin-loaded poly(epsilon- caprolactone) implants for sustained release in animal studies. European Journal of Pharmaceutics and Biopharmaceutics, 70, 666-673, 2008.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2008 - BARATTI CM, BOCCIA MM, BLAKE MG, ACOSTA GB. Reactivated memory of an inhibitory avoidance response in mice is sensitive to a nitric oxide synthase inhibitor. Neurobiology of Learning and Memory, 89(4), 426-440, 2008.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2014 - Blake MG, Krawczyk MC, Baratti CM, Boccia MM “ Neuropharmacology of memory consolidation and reconsolidation: Insights on central cholinergic mechanisms”. Journal of Physiology Paris, S0928-4257(14)00016- 3.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2007 - BARATTI CM, BOCCIA MM, BLAKE MG, ACOSTA GB. Ciclo sueño/vigilia y consolidación de la memoria. Vertex, 38, 300-304, 2007.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2007 - BOCCIA MM, FREUDENTHAL R, BLAKE MG, DE LA FUENTE V, ACOSTA GB, BARATTI CM, ROMANO A. Activation of Hippocampal Nuclear Factor-_B by Retrieval Is Required for Memory Reconsolidation. The Journal of Neuroscience, 27(49), 13436-13445, 2007.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2007 - BLAKE MG, BOCCIA MM, ACOSTA GB, HOCHT C, BARATTI CM (2007) Opposite effects of a single versus repeated doses of gabapentin on retention performance of an inhibitory avoidance response in mice. Neurobiology of Learning and Memory, 87, 192-200.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2006 - Baratti CM, Boccia MM, Blake MG, Acosta GB (2006). The type 5 phosphodiesterase inhibition for the treatment of eréctil dysfunction. Rev. Farm., 148(2), 34-44.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2006 - BOCCIA MM, BLAKE MG, ACOSTA GB, BARATTI CM. (2006) Post-retrieval effects of hemicholinium in mice dependent on the age of the original memory. Learning and memory, 13, 376-381.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2005 -BLAKE MG, BOCCIA MM, BARATTI CM (2005). Neurotransmisión. En: Fundamentos de química biológica para kinesiología, tomo II. Eds. Vera G, Ferrero A.. Capítulo II, 3-14. Mar de Fondo, Bs. As.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2005 - FREUDENTHAL R, BOCCIA MM, ACOSTA GB, BLAKE MG, MERLO E, BARATTI CM, ROMANO A. NF-B Transcription factor is required for inhibitory avoidance long-term memory in mice. Eur J Neuroscience, 21, 2845-2852, 2005.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2005 - BOCCIA MM, BLAKE MG, ACOSTA GB, BARATTI CM. Memory consolidation and reconsolidation of an inhibitory avoidance task in mice. Effects of a new different learning task. Neuroscience¸ 135, 19-29, 2005.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2004 - BLAKE MG, BOCCIA MM, ACOSTA GB, BARATTI CM. Post-training administration of pentylenetetrazol dissociates gabapentin effects on memory consolidation from that on memory retrieval process in mice. Neuroscience Letters¸ 368(2), 211-215,2004.</p>
+              </a>
+
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2004 - BOCCIA MM, ACOSTA GB, BLAKE MG, BARATTI CM. Memory consolidation and reconsolidation of an inhibitory avoidance response in mice. Effects of i.c.v. injections of hemicholinium-3. Neuroscience, 124(4), 735-741, 2004.</p>
+              </a>
+
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2003 - BOCCIA MM, BLAKE MG, ACOSTA GB, BARATTI CM. Atropine, an anticholinergic durg, impairs memory retrieval of a high consolidated avoidance response in mice. Neuroscience Letters, 345, 97-100, 2003.</p>
+              </a>              
+
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2001 - BOCCIA MM, ACOSTA GB, BARATTI CM. Memory improving actions of gabapentin: possible involvement of central muscarinic cholinergic mechanism. Neuroscience Letters, 311(3), 153-156, 2001.</p>
+              </a>              
+
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2000 - Boccia MM, Baratti CM. Involvement of central cholinergic mechanisms in the effects of oxytocin and an oxytocin receptor antagonist on retention performance in mice.Neurobiology of Learning &amp; Memory, 74, 217-228, 2000.</p>
+              </a>
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">2000 - ACOSTA G, BOCCIA MM, BARATTI CM. Effects of gabapentin, an antiepileptic drug, on memory storage in mice. Neuroscience Letters, 279, 173-176, 2000.</p>
+              </a>
+            </div>
+              </div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panel-heading" role="tab" id="headingThree">
+              <h4 class="panel-title">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  1990 - 1999
+                </a>
+              </h4>
+            </div>
+            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+              <div class="panel-body">
+            <div class="list-group">
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-heading">1999 -BOCCIA MM, BARATTI CM. Effects of sildenafil on long-term retention of an inhibitory avoidance response in mice. Behavioural Pharmacology, 10(8), 731-737, 1999.</p>
+              </a>
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">1999 - BOCCIA MM, BARATTI CM.Effects of oxytocin and an oxytocin receptor antagonist on retention of a nose-poke habituation response in mice.Acta Physiologica Pharmacologica et Therapeutica Latinoamericana, 49, 155-160, 1999..</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">1999 - BOCCIA MM, KOPF SR, BARATTI CM. Phlorizin, a competitive inhibitor of glucose transport, facilitates memory storage in mice. Neurobiology of Learning &amp; Memory, 71, 104-112, 1999..</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">1998 - KOPF SR, BOCCIA MM, BARATTI CM. AF-DX 116, a presynapticmuscarinic receptor antagonist, potentiates the effects of glucose and reverses the effects of insulin on memory. Neurobiology of Learning &amp; Memory, 70, 305-313, 1998.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">1998 - BOCCIA MM, KOPF SR, BARATTI CM. Effects of a single administration of oxytocin or vasopressin and their interactions with two selective receptor antagonists on memory storage in mice. Neurobioly of Learning &amp; Memory., 69, 136-146, 1998.</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">1996 - BOCCIA MM, KOPF SR, BARATTI CM. The memory enhancing effects of picrotoxin in mice may be mediated through a release of endogenous vasopressin.Behavioural Pharmacology, 7, 254-260, 1996..</p>
+              </a>
+              
+              <a href="#" class="list-group-item">
+                <p class="list-group-item-text">1995 - KOPF SR, BOCCIA MM, BARATTI CM. The retrograde amnesia by L-NAME is not state dependent. Comunicaciones Biológicas, 13: 2, 105-112, 1995.</p>
+              </a>
+              
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    </container>
+
+ <!--FIN MENU CARO-->
+<container>
+          <div class="col-xs-12 text-center">
+           <h2 class="titulointegrantes">Líneas de Investigación<h2>
+          </div>
+<div id="lineas">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center">
+          
+            <button type="button" class="btn btn-primary btn-block" data-toggle="collapse" data-target="#demo">Reconsolidacion de la Memoria - Error en la Prediccion - Participacion del Sistema Colinergico</button>
+              <div id="demo" class="collapse">
+                <p>La consolidación de la memoria ha sido considerada como un proceso unidireccional durante el cual se requiere la estabilización de la información recientemente adquirida para que la misma se incorpore a una traza de memoria. Una vez finalizada la fase de consolidación, la memoria se encontraría en un estado “inactivo” e insensible a distintos moduladores interferentes. Sin embargo, el proceso de acceso a la representación interna almacenada (evocación de la memoria), retornaría la memoria a un estado “activo” permitiendo así su “actualización” (agregado detalles o modificaciones a elementos de la información almacenada). El pasaje de un estado “inactivo” a otro “activo” constituye lo que habitualmente denominamos, “reactivación de la memoria”. Los procesos de reactivación/reconsolidación no son ubicuos y la mera evocación de una memoria no siempre conlleva a la labilización. La sorpresa y la incongruencia serían los responsables del error en la predicción y afectarían a las distintas etapas del aprendizaje y la memoria. Durante mucho tiempo, se ha propuesto al proceso de error en la predicción como responsable de la adquisición de las memorias y en el marco de la reconsolidación, evidencias recientes sugieren que podría estar involucrado en la actualización de memorias consolidadas. Comprender los mecanismos neurobiológicos que inducirían a la labilización/ reconsolidación de las memorias, entre ellos el error de predicción y sus variables multidimensionales (intensidad, tiempo, etc.) constituye un hecho trascendente no sólo desde el punto de la investigación básica sino también ante su eventual traslación a la clínica en aquellos casos donde existan memorias patológicas. Recientemente hemos publicado un <a href="http://www.ncbi.nlm.nih.gov/pubmed/27287939">trabajo</a> en el cual destacamos la importancia del error en la prediccion como determinante para la reformulacion de memorias</p>
+              </div>
+          </div>
+        
+        
+          <div class="col-xs-12 text-center">
+            <button type="button" class="btn btn-primary btn-block" data-toggle="collapse" data-target="#demo1">Participacion de la via MAPK/ERK en los procesos de memoria</button>
+              <div id="demo1" class="collapse">
+                En esta línea de investigación estudiamos la participación de las vías de proteínas quinasas activadas por mitógenos (MAPKs, por mitogen-activated protein kinases) y de los receptores nicotínicos de acetilcolina (nAChR) en la adquisición, consolidación y almacenamiento de la memoria de largo término. En particular, estudiamos estas vías de señalización celular en relación con los estadios iniciales de desarrollo de la Enfermedad de Alzheimer (EA), en los que se puede inferir una desregulación sutil de la función fisiológica, como aproximación para determinar mecanismos fisiológicos básicos subyacentes a estos procesos mnésicos.
+              </div>
+          </div>
+        
+
+          <div class="col-xs-12 text-center">
+            <button type="button" class="btn btn-primary btn-block" data-toggle="collapse" data-target="#demo3">Dinámica sináptica de NF-kappa B durante la consolidación de la memoria de largo término en ratón.</button>
+              
+              <div id="demo3" class="collapse ">
+                Desde el descubrimiento que la memoria de largo término depende de la síntesis de proteínas, varios factores de transcripción se han encontrado involucrados en la actividad transcripcional necesaria para la consolidación. Entre ellos, NF-kappa B es un factor de transcripción constitutivo cuya actividad nuclear es necesaria para la consolidación de la memoria inhibitoria en ratón. El factor de transcripción tiene una amplia distribución en el sistema nervioso y esta reportado en dendritas y terminales sinápticas. En nuestro laboratorio reportamos cambios en la localización y actividad del NF-kappa B sináptico durante la consolidación de la memoria de largo termino.  La comparación de la actividad de NF-kappa B nuclear y sináptico indica una distinta dinámica para cada localización. Identificamos dos poblaciones de NF-kappa B sináptico, uno libre en el sinaptoplasma y el otro unido fuertemente a las membranas sinápticas. Durante las primeras etapas de las consolidación, se activa la fracción libre en el sinaptoplasma, disminuye la cantidad y a su vez incrementa la cantidad de factor de transcripción unido a la membrana. Estos resultados indican que la activación de el NF-kappa B sináptico y su translocación a las membranas son parte de la consolidación de la memoria de largo término en ratones.
+              </div>
+          </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+</container>
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 text-center">
+      <h2 class="titulointegrantes">Contactenos<h2>
+            <!-- <p>Envíenos su mensaje!</p> -->
+            
+          </div>
+        </div>
+      </div>
+​
+      <form class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-6 text-center">
+            
+            <div class="form-group">              
+              <label for="exampleInputEmail1"></label>
+              <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nombre *">
+            </div>
+​
+            <div class="form-group">
+              <label for="exampleInputPassword1"></label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Email *">
+            </div>
+​
+            <div class="form-group">
+              <label for="exampleInputPhone"></label>
+              <input type="password" class="form-control" id="exampleInputPhone" placeholder="Telefono *">
+            </div>
+          </div>
+​
+          <div class="col-xs-12 col-md-6 text-center">
+              <textarea class="form-control" id="texto" rows="8" placeholder="Mensaje *"></textarea>
+          </div>
+​
+​
+​
+        </div>
+        <div class="row">
+​
+​
+​
+          <div class="col-xs-12 text-center">
+            <button type="submit" class="btn btn-lg">Enviar</button>
+      
+          </div>
+​
+          
+        </div>
+      </form>
+​
+    </div>
+​
+​
+    <div id="footer">
+      <div class="container">
+​
+        <div class="col-xs-12 col-md-4 text-center">
+          <ul>
+            <li><a href="#lineas">Lineas de Investigación</a></li>
+            <li><a href="#contact">Contacto</a></li>
+​
+          </ul>
+        
+        </div>
+        <div class="col-xs-12 col-md-4 text-center">
+          <ul>  
+            <li>Cátedra de Farmacología</li>
+            <li>Facultad de Farmacia y Bioquimica - UBA</li>
+            <li>Junín 956 5 Piso</li>
+            <li>C1113AAD CABA</li>
+            <li>Argentina</li>
+          </ul>
+        </div>
+​
+​
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.251498855859!2d-58.3998194854043!3d-34.59780138046093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca94324007fb%3A0xa3703f9d90f476da!2sJun%C3%ADn+956%2C+C1113AAD+CABA!5e0!3m2!1ses!2sar!4v1469052891873" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+​
+​
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	font-family: 'Roboto Condensed', sans-serif;
+	background-color: white;
+}
+
+.titulointegrantes{
+	font-weight: 700;
+	font-style: italic;
+
+}
+
+.img-thumbnail{
+	opacity: 1; 
+	filter: alpha(opacity=100);
+	max-width: 200px;
+	max-height: 200px;
+}
+
+.col-xs-4 h4{
+	margin-left: -10%;
+	font-weight: 300;
+}
+
+
+
